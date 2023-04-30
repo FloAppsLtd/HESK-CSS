@@ -1,0 +1,90 @@
+article img {
+  opacity: .6;
+}
+
+article img.logo {
+  float: left;
+  margin: 0 1rem 1rem 0;
+  opacity: 1;
+}
+
+.screen-reader-text {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.main {
+  margin-bottom: 60px;
+}
+
+/* Fix link color (insufficient contrast) */
+.breadcrumbs__inner a,
+.browser-default a,
+.ticket__body_block p > a,
+.ticket__params .params--block .list,
+.link,
+.kb--folder a,
+.preview .preview__title,
+.topics__list a,
+.form__search .form__search_results .results--list li a,
+.ticket__body_block .block--head .more,
+.ticket__body_block .block--head .more span,
+.form-footer .link,
+.footer a {
+  color: #1471e2;
+}
+
+.btn--blue-border {
+  color: #1471e2;
+  border-color: #1471e2;
+}
+
+.btn-full {
+  background-color: #1471e2;
+}
+
+/* Fix light grey color (insufficient contrast) */
+.label,
+.form-group label,
+.cust-help .lightgrey,
+.checkbox-custom [type="checkbox"]:not(:checked) + label,
+.ticket__params .params--block .row .title,
+.ticket__block-footer {
+  color: #26282a;
+}
+
+.cust-help .header,
+.search__form {
+  background: #ffc234;
+  border-bottom: none;
+}
+
+.cust-help .header__logo,
+.cust-help .header .dropdown-select .label {
+        color: #26282a;
+}
+
+.main__content {
+  background-color: white;
+}
+
+th {
+  padding: 4px;
+}
+
+.cust-help .info-block {
+  background-color: #d1ecf1;
+  border: 1px solid #bee5eb;
+  color: #0c5460;
+  padding: 12px 20px;
+  border-radius: .3em;
+}
+
+.ticket__body_block {
+  text-align: left;
+}
