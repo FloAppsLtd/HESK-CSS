@@ -88,3 +88,7 @@ th {
 .ticket__body_block {
   text-align: left;
 }
+
+.ticket__body_block .block--description ul {
+  margin: 1em 0;
+}
